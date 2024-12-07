@@ -28,8 +28,8 @@ public class CloudWine {
             out = args[2] + "model";
         } else{
             training = "s3://tb369/TrainingDataset.csv";
-            test = "s3://tb369/ValidationDataset.csv";
-            out = "s3://tb369/Test.model";
+            test = "s3://sp3226/ValidationDataset.csv";
+            out = "s3://sp3226/Test.model";
         
         }
         
